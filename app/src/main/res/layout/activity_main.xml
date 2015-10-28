@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/paizhao"
+            android:text="拍照! 并且bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+                android:id="@+id/imageView_from_bitmap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        <Button
+                android:id="@+id/cunchuwenjian"
+                android:text="拍照! 并且存储文件"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/biaozhunpaizhao"
+                android:text="标准录像"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/tiaozhuan"
+                android:text="自定义相机"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/listView"
+                android:text="跳转listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+</LinearLayout>
