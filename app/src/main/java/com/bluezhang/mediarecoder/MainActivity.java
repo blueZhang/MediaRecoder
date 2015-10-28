@@ -35,6 +35,10 @@ public class MainActivity extends FragmentActivity {
 
     }
 
+    /**
+     * 打开相机拍照 在返回之后可以得到bitmap 或者是将这个图片进行存储
+     * @param v
+     */
     @OnClick(R.id.paizhao)
     public void takePhoto(View v) {
         Toast.makeText(this, "正在打开相机", Toast.LENGTH_SHORT).show();
