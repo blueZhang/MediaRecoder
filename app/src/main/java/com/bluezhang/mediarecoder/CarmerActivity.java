@@ -3,7 +3,6 @@ package com.bluezhang.mediarecoder;
 
 import android.hardware.Camera;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.SurfaceHolder;
@@ -36,9 +35,9 @@ public class CarmerActivity extends AppCompatActivity implements SurfaceHolder.C
         holder.addCallback(this);
 
 
-        AlertDialog.Builder bu = new AlertDialog.Builder(this);
-        AlertDialog dfdsfdsfd = bu.setIcon(R.mipmap.ic_luncher).setTitle("dfdsfdsfd").create();
-        dfdsfdsfd.show();
+//        AlertDialog.Builder bu = new AlertDialog.Builder(this);
+//        AlertDialog dfdsfdsfd = bu.setIcon(R.mipmap.ic_luncher).setTitle("dfdsfdsfd").create();
+//        dfdsfdsfd.show();
 
     }
 

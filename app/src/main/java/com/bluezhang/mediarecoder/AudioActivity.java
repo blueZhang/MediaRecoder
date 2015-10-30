@@ -94,4 +94,9 @@ public class AudioActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
+
+    public void btnLook(View view) {
+        Intent intent = new Intent(this,SurfaceViewLookVideo.class);
+        startActivity(intent);
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bluezhang.mediarecoder"
-          xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bluezhang.mediarecoder" >
 
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -18,13 +18,11 @@
 
     <application
         android:allowBackup="true"
-        tools:replace="icon, label"
         android:icon="@mipmap/ic_luncher"
         android:label="@string/app_name"
-
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        tools:replace="icon, label" >
         <activity android:name=".MainActivity" >
-
         </activity>
         <activity android:name=".CarmerActivity" >
         </activity>
@@ -36,6 +34,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".SurfaceViewLookVideo" >
         </activity>
     </application>
 
